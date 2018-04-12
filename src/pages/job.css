@@ -1,0 +1,182 @@
+.custom-info{
+  display: block;
+}
+ .custom-info {
+    border-bottom: 1px solid #e8e8e8;
+    height: 43px;
+    line-height: 43px;
+    padding: 0 15px;
+    color: #555;
+    position: relative
+}
+
+ .custom-info:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+.custom-info .ainfo {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    white-space: nowrap;
+    display: block;
+    margin-right: 100px;
+    height: 100%;
+    position: relative;
+    font-size: 3.5vw
+}
+
+ .custom-info .go {
+    position: absolute;
+    right: 15px;
+    top: 0;
+    display: block;
+    float: right;
+    background-color: #f5f5f5;
+    padding: 0 20px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 6px;
+    color: #00b38a;
+    border-radius: 15px
+}
+
+.custom-info .go:active {
+    background-color: #f0f0f0
+}
+.custom-info .icon {
+    width: 10px;
+    height: 20px;
+    float:left;
+}
+
+ .custom-info .incoshow {
+    display: inline-block
+}
+
+ .custom-info .text {
+    font-style: normal;
+    font-size:3.5vw;
+}
+.list .list-item {
+    padding: 14px;
+    border-bottom: 1px solid #e8e8e8;
+    position: relative;
+}
+
+.list .list-item:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+.list .list-item:active {
+    background-color: #f0f0f0
+}
+
+.list .item-logo {
+    display: inline-block;
+    float: left;
+    width: 60px;
+    height: 60px;
+}
+
+.list .item-desc {
+    margin-left: 70px;
+    height: 88px;
+    color: #333;
+    text-align: left;
+    position: absolute;
+    top:0px;
+    width:75%;
+}
+
+.list .item-title {
+    font-size: 4.5vw;
+    margin-bottom: 6px;
+    width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.list .item-info {
+    margin-bottom: 6px;
+    width: 100%;
+    height: 15px;
+    line-height: 15px;  
+}
+
+.list .item-info:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+.list .item-pos {
+    font-size: 1.8vw;
+    float: left;
+    width: 60%;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.list .item-salary {
+    font-size: 3.6vw;
+    color: #00b38a;
+    float: right
+}
+
+.list .item-time {
+    font-size: 1vw;
+    color: #888
+}
+
+.list .list-more {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 1.5vw;
+    background-color: #fafafa
+}
+
+.list .list-more:active {
+    background-color: #f0f0f0
+}
+
+.list .list-empty {
+    text-align: center;
+    font-size: 1.5vw;
+    margin-top: 30px;
+    color: #c2cfcc
+}
+
+.list .list-empty:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+.list .list-empty .icon,.list .list-empty .text {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.list .list-empty .icon {
+    width: 20px;
+    height: 20px;
+    background-size: 250px 250px
+}
+

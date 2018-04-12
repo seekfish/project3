@@ -1,0 +1,51 @@
+.link_to a{
+	width: 20vw;
+	height: 10vw;
+	display: inline-block;
+	background: #00b38a;
+	color: white;
+	font-size: 4vw;
+}
+.link_to{
+	text-align: center;
+	line-height: 10vw;
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 20vw;
+	margin-bottom: 5vw;
+}
+.link_to .link_to_a1{
+	text-align: right;
+}
+.link_to .link_to_a2{
+	text-align: left;
+}
+.link_to2{
+	padding: 2vw 2vw;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.link_to2 .link_to_a{
+	width: 45vw;
+	height: 30vw;
+	display: block;
+	background: #00b38a;
+	margin-bottom: 2vw;
+	color: white;
+	font-size: 5vw;
+	line-height: 30vw;
+}
+.box2{
+	line-height: 10vw;
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 20vw;
+	margin-bottom: 5vw;
+}
+.btn{
+	width: 90%;
+	background: #00b38a;
+	color: white;
+	margin-left: 5%;
+}

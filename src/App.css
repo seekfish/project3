@@ -1,0 +1,81 @@
+*{
+  margin: 0px;
+  padding: 0px
+}
+a{
+  text-decoration: none;
+  color: #c2cfcc;
+}
+.App {
+  text-align: center;
+   height: 100%;
+   display: flex;
+}
+body{
+  height: 100%;
+}
+.main{
+  flex: 1;
+  position: relative;
+}
+.App-header {
+    height: 45px;
+    line-height: 45px;
+    background-color: #00b38a;
+    color: #fff;
+    font-size: 1.8rem;
+    text-align: center;
+}
+.App-header p{
+  font-size: 4.5vw;
+}
+.footNav{
+    height: 45px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #e8e8e8;
+    background-color: #f6f6f6;
+    color: #c2cfcc;
+    margin-bottom: 0;
+}
+.footNav li{
+  flex: 1;
+  list-style:none;
+  line-height: 45px;
+
+}
+.index_active{
+    color: #00b38a;
+    background-color: #e7f3f0;
+    display: block;
+    height:45px;
+    text-decoration: none;
+}
+.item{
+      height: 44px;
+    line-height: 44px;
+    color: #666;
+    font-size: 1.4rem;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 0 15px 0 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.search{
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background-color: #00b38a;
+    font-size: 1.6rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.desc{
+  font-style: normal;
+  color: #ccc;
+}

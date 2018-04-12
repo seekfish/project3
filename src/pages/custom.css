@@ -1,0 +1,162 @@
+ .info {
+    background: #e8e8e8;
+    background-size: 320px 125px;
+    height: 125px;
+    color: #00b38a;
+    font-size: 1.9rem;
+    text-align: center;
+    border-bottom: 1px solid #e8e8e8
+}
+
+ .info .text {
+    display: inline-block;
+    position: relative;
+    height: 25px;
+    top: 50px
+}
+
+ .info .left, .info .right {
+    display: inline-block;
+    width: 13px;
+    height: 10.5px;
+    position: absolute
+}
+
+ .info .left {
+    left: -20px;
+    top: -2px;
+    background: url(../images/icon.png ) no-repeat -102.5px -4px;
+    background-size: 250px 250px
+}
+
+ .info .right {
+    right: -14px;
+    top: 15px;
+    background: url(../images/icon.png ) no-repeat -119.5px -4px;
+    background-size: 250px 250px
+}
+ .rinputer {
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #e8e8e8;
+    position: relative;
+    margin-right: 60px;
+    padding-right: 45px
+}
+
+ .rinputer:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+ .inputer, .button {
+    display: block;
+    height: 100%
+}
+
+ .inputer {
+    display: block;
+    margin-left: 23px;
+    font-size: 1.5rem;
+    width: 100%;
+    border: none;
+}
+
+ .button {
+    position: absolute;
+    top: 0;
+    right: -61px;
+    width: 60px;
+    border-left: 1px solid #e8e8e8;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #c2cfcc;
+    border-bottom: 1px solid #e8e8e8
+}
+
+ .button:active {
+    background-color: #f0f0f0
+}
+
+ .enable {
+    color: #00b38a
+}
+
+ .predata {
+    margin-left: 15px
+}
+
+ .predata .item {
+    height: 44px;
+    line-height: 44px;
+    color: #666;
+    font-size: 1.4rem;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 0 15px 0 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+ .predata .item:active {
+    background-color: #f0f0f0
+}
+
+ .suggester {
+    margin-left: 15px;
+    display: none
+}
+
+ .suggester .item {
+    height: 44px;
+    line-height: 44px;
+    color: #666;
+    font-size: 1.4rem;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 0 15px 0 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+ .suggester .item:active {
+    background-color: #f0f0f0
+}
+
+ .rinputer {
+    border-top: none
+}
+.change .info_box p{
+    font-size: 3.5vw;
+    color: #ccc;
+    text-align: left;
+    margin-top: 5vw;
+}
+.info_box{
+        width: 90%;
+    margin-left: 5%;
+}
+
+.change .info_to{
+    display: block;
+    margin: 10px 0 20px 0;
+    text-align: center;
+    height: 20vw;
+    line-height: 20vw;
+    color: #333;
+    font-size: 4.5vw;
+    background-color: #f0f0f0;
+    border-radius: 2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0 10px;
+    color:#00b38a;
+
+}
+.change .info_to1{
+    color: black;
+}

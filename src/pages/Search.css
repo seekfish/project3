@@ -1,0 +1,150 @@
+.linputer {
+    position: relative;
+    border-bottom: 1px solid #e8e8e8;
+    height: 45px
+}
+.linputer:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+ .lbutton {
+    float: left;
+    height: 45px;
+    line-height: 45px;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 88px;
+    border-right: 1px solid #e8e8e8
+}
+
+ .lbutton:active {
+    background-color: #f0f0f0
+}
+
+ .lbutton span {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+ .lbutton .cityicon {
+ 	width: 8.5px;
+    height: 7px;
+    background: url(../images/icon.png  ) no-repeat -1px -2.5px;
+    background-size: 250px 250px
+}
+
+ .rinput {
+    height: 45px;
+    margin-left: 89px;
+    position: relative;
+    line-height: 45px;
+}
+
+ .rinput:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+ .rinput .inputer {
+    display: block;
+    border: none;
+    padding: 10px 0;
+    height: 25px;
+    line-height: 25px;
+    color: #333333;
+    width: 75%;
+    margin: 4% 0 0 5%;
+    font-size: 1.5rem;
+    float: left;
+}
+
+ .rinput .search {
+    display: inline-block;
+    width: 20%;
+    height: 45px;
+    line-height: 45px;
+    float: right;
+    position: relative
+}
+
+ .rinput .search:active {
+    background-color: #f0f0f0
+}
+
+ .rinput .search:active .searchicon {
+    background: url(../images/icon.png ) no-repeat -14px -20.5px;
+    background-size: 250px 250px
+}
+.rinput .search .searchicon {
+    display: block;
+    margin: 14px auto 0 auto;
+    width: 17px;
+    height: 17px;
+    background: url(../images/icon.png ) no-repeat -14px -2.5px;
+    background-size: 250px 250px
+}
+
+.citys tbody tr{
+   display: flex;
+   justify-content: space-around;
+   width:100%;
+}
+.citys,.citys tbody{
+    width:100%;
+}
+.citys tbody tr td{
+    width: 30%;
+    height:15vw;
+    align-content: center;
+    line-height: 15vw;
+    font-size: 4vw;
+}
+.hot_city{
+    text-align: left;
+    height: 8vw;
+    line-height: 8vw;
+    padding-left: 3vw;
+    font-size: 3.5vw;
+    color: #ccc;
+    border-bottom: 1px solid #ccc; 
+    border-top: 1px solid #ccc; 
+}
+.sech_all{
+    display: none;
+    position: absolute;
+    top:0px;
+    width: 100%;
+    background: white;
+}
+.city_li{
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+    padding-left: 3vw;
+    height:10vw;
+    background: #f6f6f6;
+    line-height: 10vw;
+    font-size: 4vw;
+    position: relative;
+}
+.city_li div{
+    height: 10vw;
+    width: 10vw;   
+    position: absolute;
+    right:5vw;
+    top:0;
+}
+.city_li span{
+    background: url(../images/icon.png ) no-repeat -71.5px -4px;
+    display: inline-block;
+    height: 10px;
+    width: 12px;
+    background-size: 250px 250px;
+    margin-left: 3vw
+}
